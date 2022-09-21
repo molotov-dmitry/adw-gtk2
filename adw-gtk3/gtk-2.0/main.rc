@@ -40,7 +40,7 @@ style "default" {
 
   GtkButton::default-border         = {0, 0, 0, 0}
   GtkButton::default-outside-border = {0, 0, 0, 0}
-  GtkButton::inner-border           = {4, 4, 4, 4}
+  GtkButton::inner-border           = {6, 6, 6, 6}
 
   GtkEntry::state-hint = 1
   GtkEntry::inner-border = {7, 7, 4, 5}
@@ -2036,7 +2036,7 @@ style "combo_button_padding" {
   # little to the right.
   # This is the same thing we've done above but the combo, unlike the combobox,
   # uses padding the same way as a button.
-  GtkButton::inner-border = {6, 8, 4, 4}
+  GtkButton::inner-border = {8, 10, 6, 6}
 
 }
 
